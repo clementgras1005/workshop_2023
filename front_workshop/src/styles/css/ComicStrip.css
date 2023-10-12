@@ -1,0 +1,65 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    background-color: #F7F6FB;
+}
+
+/* Ajoutez ces styles à votre fichier CSS */
+.container-global {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    display: flex;
+    flex-wrap: wrap; /* Permet le passage à la ligne des éléments */
+    justify-content: space-between; /* Espacement égal entre les éléments */
+    align-items: center; /* Centre verticalement les éléments */
+  }
+  
+  /* Styles pour chaque bloc individuel */
+  .img {
+    width: 100%;
+    height: 100px; /* Ajustez la hauteur en fonction de vos besoins */
+    cursor: pointer;
+  }
+  
+  .title {
+    text-align: center;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+  }
+
+  .container-comicStrip{
+
+    background-color: white;
+    height: 100%;
+    width: 80%;
+    border-radius: 15px;
+  }
+
+  .container-gameComic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+
+  .logo{
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .btn-quizz {
+    display: block;
+    margin: 0 auto; /* Centre le bouton horizontalement */
+    padding: 10px 20px; /* Ajoutez un rembourrage pour une meilleure apparence */
+    background-color: #007BFF; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte du bouton */
+    border: none; /* Supprimez la bordure du bouton */
+    border-radius: 5px; /* Ajoutez un coin arrondi au bouton */
+    cursor: pointer; /* Affiche un curseur au survol */
+    font-size: 16px; /* Taille de la police du texte */
+  }

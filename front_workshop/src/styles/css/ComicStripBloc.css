@@ -1,0 +1,22 @@
+.img{
+    width: calc(33.33% - 15px); /* Répartit l'espace sur 3 éléments par ligne */
+    height: 250px; /* Ajustez la hauteur en fonction de vos besoins */
+    background-color: green; /* Exemple de couleur de fond */
+    cursor: pointer;
+    text-align: center; /* Centre le contenu horizontalement */
+    margin-bottom: 20px; /* Espacement entre les lignes */
+    display: flex;
+    align-items: center; /* Centre verticalement */
+    flex-direction: column;
+}
+
+.icon{
+    width: 100px;
+    height: 100px;
+}
+
+.title-box{
+    margin-top: 35;
+    padding: 10px;
+    font-family: sans-serif;
+}
